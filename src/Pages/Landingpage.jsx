@@ -37,7 +37,7 @@ const LandingPage = () => {
 _Booking requested via website_`;
 
     // WhatsApp number
-    const whatsappNumber = "917025689644"; // Without + and spaces
+    const whatsappNumber = "919895505677"; // Without + and spaces
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${message}`;
     
     // Open WhatsApp in new tab
@@ -299,7 +299,7 @@ _Booking requested via website_`;
               <div key={num} className="group relative overflow-hidden rounded-2xl bg-[#0B132B]/70 border border-white/10 transition-all duration-300 ">
                 <div className="aspect-[4/3] overflow-hidden flex items-center justify-center bg-[#0e0e10]">
                   <img 
-                    src={`/src/assets/vehicle${num}.jpeg`} 
+                    src={`/gallery/vehicle${num}.jpeg`} 
                     alt={`Vehicle ${num}`}
                     className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
                   />
@@ -603,8 +603,8 @@ _Booking requested via website_`;
           <MapPin className="text-yellow-400 mt-1" size={24} />
           <div>
             <h3 className="font-semibold mb-1">Visit Us</h3>
-            <p className="text-gray-400">1234 Highway Route 66</p>
-            <p className="text-sm text-gray-500">Los Angeles, CA 90001</p>
+            <p className="text-gray-400">Aban bike Rental Odayam parambil temple</p>
+            <p className="text-sm text-gray-500">Varkala PO Trivandrum, Kerala</p>
           </div>
         </div>
       </div>
